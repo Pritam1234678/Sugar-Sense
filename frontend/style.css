@@ -50,6 +50,14 @@ body {
     color: #f8fafc;
 }
 
+.logo-mark {
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    background: transparent;
+    border: 1px solid rgba(255,255,255,0.06);
+}
+
 .brand {
     font-family: 'Playfair Display', serif;
     letter-spacing: -0.02em;
@@ -203,7 +211,7 @@ body {
     transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 .model-card:hover { transform: translateY(-8px); box-shadow: 0 18px 40px rgba(0,0,0,0.7); }
-.model-icon { display:flex; justify-content:center; align-items:center; height:56px; margin-bottom:0.75rem; }
+.model-icon { display:flex; justify-content:center; align-items:center; height:56px; margin-bottom:0.75rem; border-radius:8px; background:transparent; border:1px solid rgba(255,255,255,0.02); }
 .model-card h3 { font-size:1.15rem; color:#ffffff; margin-bottom:0.75rem; }
 .model-specs { list-style:none; color:rgba(229,231,235,0.75); }
 .model-specs li { padding:0.5rem 0; border-bottom:1px solid rgba(255,255,255,0.02); }
